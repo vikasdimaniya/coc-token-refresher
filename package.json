@@ -1,17 +1,9 @@
 {
-  "name": "get-sc-key",
+  "name": "coc-token-refresher",
   "version": "1.0.0",
-  "description": "This is an API to generate a fresh API key for Supercell games for your current IP. It supports Clash Royale, Clash of Clans and Brawl Stars.",
+  "description": "This is a module to generate a fresh API key for Supercell games for your current IP. It supports Clash Royale, Clash of Clans and Brawl Stars.",
   "main": "index.js",
-  "scripts": {
-    "start": "cross-env NODE_ENV=production nodemon index.js",
-    "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "test": "cross-env NODE_ENV=test PORT=1234 mocha index.test.js --exit --timeout 60000",
-    "test:watch": "npm run test -- --watch",
-    "git": "git add . && git commit -m",
-    "postgit": "git push origin main",
-    "heroku": "git push heroku main"
-  },
+  "scripts": {},
   "keywords": [
     "clash-royale",
     "clash-of-clans",
@@ -19,26 +11,16 @@
     "supercell",
     "api-key"
   ],
-  "author": "Luis Marsiglia",
+  "author": {
+    "email":"vikaskumar6399@gmail.com",
+    "name": "vikas kumar",
+    "twitter": "https://twitter.com/vikas_dimaniya",
+    "github": "https://github.com/vikasdimaniya"
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^0.25.0",
-    "cors": "^2.8.5",
-    "cross-env": "^7.0.3",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {
-    "chai": "^4.3.6",
-    "chai-http": "^4.3.0",
-    "eslint": "7.32.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "5.2.0",
-    "mocha": "^10.0.0"
+    "dotenv": "^16.0.1"
   },
   "engines": {
     "node": "14.x"
