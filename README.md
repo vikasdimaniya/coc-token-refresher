@@ -1,3 +1,5 @@
+GITHUB: https://github.com/vikasdimaniya/coc-token-refresher Don't forget to give a star to the project on GitHub
+
 ## What is this?
 
 This is an module to generate a fresh API key for Supercell games for your current IP. It supports [Clash Royale](https://developer.clashroyale.com), [Clash of Clans](https://developer.clashofclans.com) and [Brawl Stars](https://developer.brawlstars.com).
